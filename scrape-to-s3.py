@@ -25,7 +25,7 @@ from selenium import webdriver
 
 
 #call the webdriver
-browser = webdriver.Chrome("C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/chromedriver.exe")
+browser = webdriver.Chrome("C:/chromedriver.exe")
 
 #enter the url path that needs to be accessed by webdriver
 browser.get('https://www.charitiesnys.com/RegistrySearch/search_charities.jsp')
